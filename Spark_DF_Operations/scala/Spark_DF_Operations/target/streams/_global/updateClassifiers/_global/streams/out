@@ -1,0 +1,4 @@
+[debug] "not up to date. inChanged = true, force = false
+[debug] Updating ProjectRef(uri("file:/home/suresh/IdeaProjects/Spark_DF_Operations/"), "spark_df_operations")...
+[debug] Done updating ProjectRef(uri("file:/home/suresh/IdeaProjects/Spark_DF_Operations/"), "spark_df_operations")
+[warn] There may be incompatibilities among your library dependencies; run 'evicted' to see detailed eviction warnings.

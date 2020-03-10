@@ -1,0 +1,3 @@
+JAR_FILE_PATH /home/suresh/IdeaProjects/Spark_DF_Operations/out/artifacts/Spark_DF_Operations_jar
+HDFS_OUTPUT_PATH /user/hduser/Spark_DF_Operations_Files/Output
+OUTPUT_FILE Result.txt

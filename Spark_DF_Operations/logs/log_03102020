@@ -1,0 +1,106 @@
+LOG Path :  /home/hduser/Programs/Spark_DF_Operations/logs
+HDFS Location :  /user/hduser/Spark_DF_Operations_Files/Output
+###############################################################################
+Submit SPARK Job
+spark-submit --deploy-mode cluster --class RDD_Operations.Driver /home/suresh/IdeaProjects/Spark_DF_Operations/out/artifacts/Spark_DF_Operations_jar/Spark_DF_Operations.jar 100
+###############################################################################
+Consolidate and Clean up files after job completion
+Deleted /user/hduser/Spark_DF_Operations_Files/Output/_SUCCESS
+Deleted /user/hduser/Spark_DF_Operations_Files/Output/part-00000-6af3efc8-137d-4f2c-b30c-6bb12e539d82-c000.csv
+Deleted /user/hduser/Spark_DF_Operations_Files/Output/part-00001-6af3efc8-137d-4f2c-b30c-6bb12e539d82-c000.csv
+Deleted /user/hduser/Spark_DF_Operations_Files/Output/part-00002-6af3efc8-137d-4f2c-b30c-6bb12e539d82-c000.csv
+Deleted /user/hduser/Spark_DF_Operations_Files/Output/part-00003-6af3efc8-137d-4f2c-b30c-6bb12e539d82-c000.csv
+Deleted /user/hduser/Spark_DF_Operations_Files/Output/part-00004-6af3efc8-137d-4f2c-b30c-6bb12e539d82-c000.csv
+Deleted /user/hduser/Spark_DF_Operations_Files/Output/part-00005-6af3efc8-137d-4f2c-b30c-6bb12e539d82-c000.csv
+Deleted /user/hduser/Spark_DF_Operations_Files/Output/part-00006-6af3efc8-137d-4f2c-b30c-6bb12e539d82-c000.csv
+Deleted /user/hduser/Spark_DF_Operations_Files/Output/part-00007-6af3efc8-137d-4f2c-b30c-6bb12e539d82-c000.csv
+Deleted /user/hduser/Spark_DF_Operations_Files/Output/part-00008-6af3efc8-137d-4f2c-b30c-6bb12e539d82-c000.csv
+Deleted /user/hduser/Spark_DF_Operations_Files/Output/part-00009-6af3efc8-137d-4f2c-b30c-6bb12e539d82-c000.csv
+Deleted /user/hduser/Spark_DF_Operations_Files/Output/part-00010-6af3efc8-137d-4f2c-b30c-6bb12e539d82-c000.csv
+Deleted /user/hduser/Spark_DF_Operations_Files/Output/part-00011-6af3efc8-137d-4f2c-b30c-6bb12e539d82-c000.csv
+Deleted /user/hduser/Spark_DF_Operations_Files/Output/part-00012-6af3efc8-137d-4f2c-b30c-6bb12e539d82-c000.csv
+Deleted /user/hduser/Spark_DF_Operations_Files/Output/part-00013-6af3efc8-137d-4f2c-b30c-6bb12e539d82-c000.csv
+Deleted /user/hduser/Spark_DF_Operations_Files/Output/part-00014-6af3efc8-137d-4f2c-b30c-6bb12e539d82-c000.csv
+Deleted /user/hduser/Spark_DF_Operations_Files/Output/part-00015-6af3efc8-137d-4f2c-b30c-6bb12e539d82-c000.csv
+Deleted /user/hduser/Spark_DF_Operations_Files/Output/part-00016-6af3efc8-137d-4f2c-b30c-6bb12e539d82-c000.csv
+Deleted /user/hduser/Spark_DF_Operations_Files/Output/part-00017-6af3efc8-137d-4f2c-b30c-6bb12e539d82-c000.csv
+Deleted /user/hduser/Spark_DF_Operations_Files/Output/part-00018-6af3efc8-137d-4f2c-b30c-6bb12e539d82-c000.csv
+Deleted /user/hduser/Spark_DF_Operations_Files/Output/part-00019-6af3efc8-137d-4f2c-b30c-6bb12e539d82-c000.csv
+Deleted /user/hduser/Spark_DF_Operations_Files/Output/part-00020-6af3efc8-137d-4f2c-b30c-6bb12e539d82-c000.csv
+Deleted /user/hduser/Spark_DF_Operations_Files/Output/part-00021-6af3efc8-137d-4f2c-b30c-6bb12e539d82-c000.csv
+Deleted /user/hduser/Spark_DF_Operations_Files/Output/part-00022-6af3efc8-137d-4f2c-b30c-6bb12e539d82-c000.csv
+Deleted /user/hduser/Spark_DF_Operations_Files/Output/part-00023-6af3efc8-137d-4f2c-b30c-6bb12e539d82-c000.csv
+Deleted /user/hduser/Spark_DF_Operations_Files/Output/part-00024-6af3efc8-137d-4f2c-b30c-6bb12e539d82-c000.csv
+Deleted /user/hduser/Spark_DF_Operations_Files/Output/part-00025-6af3efc8-137d-4f2c-b30c-6bb12e539d82-c000.csv
+Deleted /user/hduser/Spark_DF_Operations_Files/Output/part-00026-6af3efc8-137d-4f2c-b30c-6bb12e539d82-c000.csv
+Deleted /user/hduser/Spark_DF_Operations_Files/Output/part-00027-6af3efc8-137d-4f2c-b30c-6bb12e539d82-c000.csv
+Deleted /user/hduser/Spark_DF_Operations_Files/Output/part-00028-6af3efc8-137d-4f2c-b30c-6bb12e539d82-c000.csv
+Deleted /user/hduser/Spark_DF_Operations_Files/Output/part-00029-6af3efc8-137d-4f2c-b30c-6bb12e539d82-c000.csv
+Deleted /user/hduser/Spark_DF_Operations_Files/Output/part-00030-6af3efc8-137d-4f2c-b30c-6bb12e539d82-c000.csv
+Deleted /user/hduser/Spark_DF_Operations_Files/Output/part-00031-6af3efc8-137d-4f2c-b30c-6bb12e539d82-c000.csv
+Deleted /user/hduser/Spark_DF_Operations_Files/Output/part-00032-6af3efc8-137d-4f2c-b30c-6bb12e539d82-c000.csv
+Deleted /user/hduser/Spark_DF_Operations_Files/Output/part-00033-6af3efc8-137d-4f2c-b30c-6bb12e539d82-c000.csv
+Deleted /user/hduser/Spark_DF_Operations_Files/Output/part-00034-6af3efc8-137d-4f2c-b30c-6bb12e539d82-c000.csv
+Deleted /user/hduser/Spark_DF_Operations_Files/Output/part-00035-6af3efc8-137d-4f2c-b30c-6bb12e539d82-c000.csv
+Deleted /user/hduser/Spark_DF_Operations_Files/Output/part-00036-6af3efc8-137d-4f2c-b30c-6bb12e539d82-c000.csv
+Deleted /user/hduser/Spark_DF_Operations_Files/Output/part-00037-6af3efc8-137d-4f2c-b30c-6bb12e539d82-c000.csv
+Deleted /user/hduser/Spark_DF_Operations_Files/Output/part-00038-6af3efc8-137d-4f2c-b30c-6bb12e539d82-c000.csv
+Deleted /user/hduser/Spark_DF_Operations_Files/Output/part-00039-6af3efc8-137d-4f2c-b30c-6bb12e539d82-c000.csv
+Deleted /user/hduser/Spark_DF_Operations_Files/Output/part-00040-6af3efc8-137d-4f2c-b30c-6bb12e539d82-c000.csv
+Deleted /user/hduser/Spark_DF_Operations_Files/Output/part-00041-6af3efc8-137d-4f2c-b30c-6bb12e539d82-c000.csv
+Deleted /user/hduser/Spark_DF_Operations_Files/Output/part-00042-6af3efc8-137d-4f2c-b30c-6bb12e539d82-c000.csv
+Deleted /user/hduser/Spark_DF_Operations_Files/Output/part-00043-6af3efc8-137d-4f2c-b30c-6bb12e539d82-c000.csv
+Deleted /user/hduser/Spark_DF_Operations_Files/Output/part-00044-6af3efc8-137d-4f2c-b30c-6bb12e539d82-c000.csv
+Deleted /user/hduser/Spark_DF_Operations_Files/Output/part-00045-6af3efc8-137d-4f2c-b30c-6bb12e539d82-c000.csv
+Deleted /user/hduser/Spark_DF_Operations_Files/Output/part-00046-6af3efc8-137d-4f2c-b30c-6bb12e539d82-c000.csv
+Deleted /user/hduser/Spark_DF_Operations_Files/Output/part-00047-6af3efc8-137d-4f2c-b30c-6bb12e539d82-c000.csv
+Deleted /user/hduser/Spark_DF_Operations_Files/Output/part-00048-6af3efc8-137d-4f2c-b30c-6bb12e539d82-c000.csv
+Deleted /user/hduser/Spark_DF_Operations_Files/Output/part-00049-6af3efc8-137d-4f2c-b30c-6bb12e539d82-c000.csv
+Deleted /user/hduser/Spark_DF_Operations_Files/Output/part-00050-6af3efc8-137d-4f2c-b30c-6bb12e539d82-c000.csv
+Deleted /user/hduser/Spark_DF_Operations_Files/Output/part-00051-6af3efc8-137d-4f2c-b30c-6bb12e539d82-c000.csv
+Deleted /user/hduser/Spark_DF_Operations_Files/Output/part-00052-6af3efc8-137d-4f2c-b30c-6bb12e539d82-c000.csv
+Deleted /user/hduser/Spark_DF_Operations_Files/Output/part-00053-6af3efc8-137d-4f2c-b30c-6bb12e539d82-c000.csv
+Deleted /user/hduser/Spark_DF_Operations_Files/Output/part-00054-6af3efc8-137d-4f2c-b30c-6bb12e539d82-c000.csv
+Deleted /user/hduser/Spark_DF_Operations_Files/Output/part-00055-6af3efc8-137d-4f2c-b30c-6bb12e539d82-c000.csv
+Deleted /user/hduser/Spark_DF_Operations_Files/Output/part-00056-6af3efc8-137d-4f2c-b30c-6bb12e539d82-c000.csv
+Deleted /user/hduser/Spark_DF_Operations_Files/Output/part-00057-6af3efc8-137d-4f2c-b30c-6bb12e539d82-c000.csv
+Deleted /user/hduser/Spark_DF_Operations_Files/Output/part-00058-6af3efc8-137d-4f2c-b30c-6bb12e539d82-c000.csv
+Deleted /user/hduser/Spark_DF_Operations_Files/Output/part-00059-6af3efc8-137d-4f2c-b30c-6bb12e539d82-c000.csv
+Deleted /user/hduser/Spark_DF_Operations_Files/Output/part-00060-6af3efc8-137d-4f2c-b30c-6bb12e539d82-c000.csv
+Deleted /user/hduser/Spark_DF_Operations_Files/Output/part-00061-6af3efc8-137d-4f2c-b30c-6bb12e539d82-c000.csv
+Deleted /user/hduser/Spark_DF_Operations_Files/Output/part-00062-6af3efc8-137d-4f2c-b30c-6bb12e539d82-c000.csv
+Deleted /user/hduser/Spark_DF_Operations_Files/Output/part-00063-6af3efc8-137d-4f2c-b30c-6bb12e539d82-c000.csv
+Deleted /user/hduser/Spark_DF_Operations_Files/Output/part-00064-6af3efc8-137d-4f2c-b30c-6bb12e539d82-c000.csv
+Deleted /user/hduser/Spark_DF_Operations_Files/Output/part-00065-6af3efc8-137d-4f2c-b30c-6bb12e539d82-c000.csv
+Deleted /user/hduser/Spark_DF_Operations_Files/Output/part-00066-6af3efc8-137d-4f2c-b30c-6bb12e539d82-c000.csv
+Deleted /user/hduser/Spark_DF_Operations_Files/Output/part-00067-6af3efc8-137d-4f2c-b30c-6bb12e539d82-c000.csv
+Deleted /user/hduser/Spark_DF_Operations_Files/Output/part-00068-6af3efc8-137d-4f2c-b30c-6bb12e539d82-c000.csv
+Deleted /user/hduser/Spark_DF_Operations_Files/Output/part-00069-6af3efc8-137d-4f2c-b30c-6bb12e539d82-c000.csv
+Deleted /user/hduser/Spark_DF_Operations_Files/Output/part-00070-6af3efc8-137d-4f2c-b30c-6bb12e539d82-c000.csv
+Deleted /user/hduser/Spark_DF_Operations_Files/Output/part-00071-6af3efc8-137d-4f2c-b30c-6bb12e539d82-c000.csv
+Deleted /user/hduser/Spark_DF_Operations_Files/Output/part-00072-6af3efc8-137d-4f2c-b30c-6bb12e539d82-c000.csv
+Deleted /user/hduser/Spark_DF_Operations_Files/Output/part-00073-6af3efc8-137d-4f2c-b30c-6bb12e539d82-c000.csv
+Deleted /user/hduser/Spark_DF_Operations_Files/Output/part-00074-6af3efc8-137d-4f2c-b30c-6bb12e539d82-c000.csv
+Deleted /user/hduser/Spark_DF_Operations_Files/Output/part-00075-6af3efc8-137d-4f2c-b30c-6bb12e539d82-c000.csv
+Deleted /user/hduser/Spark_DF_Operations_Files/Output/part-00076-6af3efc8-137d-4f2c-b30c-6bb12e539d82-c000.csv
+Deleted /user/hduser/Spark_DF_Operations_Files/Output/part-00077-6af3efc8-137d-4f2c-b30c-6bb12e539d82-c000.csv
+Deleted /user/hduser/Spark_DF_Operations_Files/Output/part-00078-6af3efc8-137d-4f2c-b30c-6bb12e539d82-c000.csv
+Deleted /user/hduser/Spark_DF_Operations_Files/Output/part-00079-6af3efc8-137d-4f2c-b30c-6bb12e539d82-c000.csv
+Deleted /user/hduser/Spark_DF_Operations_Files/Output/part-00080-6af3efc8-137d-4f2c-b30c-6bb12e539d82-c000.csv
+Deleted /user/hduser/Spark_DF_Operations_Files/Output/part-00081-6af3efc8-137d-4f2c-b30c-6bb12e539d82-c000.csv
+Deleted /user/hduser/Spark_DF_Operations_Files/Output/part-00082-6af3efc8-137d-4f2c-b30c-6bb12e539d82-c000.csv
+Deleted /user/hduser/Spark_DF_Operations_Files/Output/part-00083-6af3efc8-137d-4f2c-b30c-6bb12e539d82-c000.csv
+Deleted /user/hduser/Spark_DF_Operations_Files/Output/part-00084-6af3efc8-137d-4f2c-b30c-6bb12e539d82-c000.csv
+Deleted /user/hduser/Spark_DF_Operations_Files/Output/part-00085-6af3efc8-137d-4f2c-b30c-6bb12e539d82-c000.csv
+Deleted /user/hduser/Spark_DF_Operations_Files/Output/part-00086-6af3efc8-137d-4f2c-b30c-6bb12e539d82-c000.csv
+Deleted /user/hduser/Spark_DF_Operations_Files/Output/part-00087-6af3efc8-137d-4f2c-b30c-6bb12e539d82-c000.csv
+Deleted /user/hduser/Spark_DF_Operations_Files/Output/part-00088-6af3efc8-137d-4f2c-b30c-6bb12e539d82-c000.csv
+Deleted /user/hduser/Spark_DF_Operations_Files/Output/part-00089-6af3efc8-137d-4f2c-b30c-6bb12e539d82-c000.csv
+Deleted /user/hduser/Spark_DF_Operations_Files/Output/part-00090-6af3efc8-137d-4f2c-b30c-6bb12e539d82-c000.csv
+Deleted /user/hduser/Spark_DF_Operations_Files/Output/part-00091-6af3efc8-137d-4f2c-b30c-6bb12e539d82-c000.csv
+Deleted /user/hduser/Spark_DF_Operations_Files/Output/part-00092-6af3efc8-137d-4f2c-b30c-6bb12e539d82-c000.csv
+Deleted /user/hduser/Spark_DF_Operations_Files/Output/part-00093-6af3efc8-137d-4f2c-b30c-6bb12e539d82-c000.csv
+###############################################################################
+Output File : 
+-rw-r--r--   1 hduser supergroup       3168 2020-03-10 07:14 /user/hduser/Spark_DF_Operations_Files/Output/Result.txt
+###############################################################################

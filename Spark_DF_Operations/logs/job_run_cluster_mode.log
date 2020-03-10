@@ -1,0 +1,258 @@
+hduser@Ubuntu-Master:~/Programs/Spark_DF_Operations$ date
+Tue Mar 10 07:11:23 EDT 2020
+hduser@Ubuntu-Master:~/Programs/Spark_DF_Operations$ /home/hduser/Programs/Spark_DF_Operations/spark_df.sh 
+20/03/10 07:11:36 INFO fs.TrashPolicyDefault: Namenode trash configuration: Deletion interval = 0 minutes, Emptier interval = 0 minutes.
+Deleted /user/hduser/Spark_DF_Operations_Files/Output
+20/03/10 07:11:49 INFO client.RMProxy: Connecting to ResourceManager at Ubuntu-Master/169.254.6.200:8032
+20/03/10 07:11:49 INFO yarn.Client: Requesting a new application from cluster with 1 NodeManagers
+20/03/10 07:11:50 INFO yarn.Client: Verifying our application has not requested more than the maximum memory capability of the cluster (3072 MB per container)
+20/03/10 07:11:50 INFO yarn.Client: Will allocate AM container, with 1408 MB memory including 384 MB overhead
+20/03/10 07:11:50 INFO yarn.Client: Setting up container launch context for our AM
+20/03/10 07:11:50 INFO yarn.Client: Setting up the launch environment for our AM container
+20/03/10 07:11:50 INFO yarn.Client: Preparing resources for our AM container
+20/03/10 07:11:50 WARN yarn.Client: Neither spark.yarn.jars nor spark.yarn.archive is set, falling back to uploading libraries under SPARK_HOME.
+20/03/10 07:12:00 INFO yarn.Client: Uploading resource file:/tmp/spark-f0c44ea5-7bd9-4c3c-ab62-fe32cac61e02/__spark_libs__3942414680860658100.zip -> hdfs://localhost:54310/user/hduser/.sparkStaging/application_1583689295374_0015/__spark_libs__3942414680860658100.zip
+20/03/10 07:12:05 INFO yarn.Client: Uploading resource file:/home/suresh/IdeaProjects/Spark_DF_Operations/out/artifacts/Spark_DF_Operations_jar/Spark_DF_Operations.jar -> hdfs://localhost:54310/user/hduser/.sparkStaging/application_1583689295374_0015/Spark_DF_Operations.jar
+20/03/10 07:12:07 INFO yarn.Client: Uploading resource file:/tmp/spark-f0c44ea5-7bd9-4c3c-ab62-fe32cac61e02/__spark_conf__3816653472648473409.zip -> hdfs://localhost:54310/user/hduser/.sparkStaging/application_1583689295374_0015/__spark_conf__.zip
+20/03/10 07:12:07 INFO spark.SecurityManager: Changing view acls to: hduser
+20/03/10 07:12:07 INFO spark.SecurityManager: Changing modify acls to: hduser
+20/03/10 07:12:07 INFO spark.SecurityManager: Changing view acls groups to: 
+20/03/10 07:12:07 INFO spark.SecurityManager: Changing modify acls groups to: 
+20/03/10 07:12:07 INFO spark.SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(hduser); groups with view permissions: Set(); users  with modify permissions: Set(hduser); groups with modify permissions: Set()
+20/03/10 07:12:09 INFO yarn.Client: Submitting application application_1583689295374_0015 to ResourceManager
+20/03/10 07:12:09 INFO impl.YarnClientImpl: Submitted application application_1583689295374_0015
+20/03/10 07:12:10 INFO yarn.Client: Application report for application_1583689295374_0015 (state: ACCEPTED)
+20/03/10 07:12:10 INFO yarn.Client: 
+	 client token: N/A
+	 diagnostics: N/A
+	 ApplicationMaster host: N/A
+	 ApplicationMaster RPC port: -1
+	 queue: default
+	 start time: 1583838729947
+	 final status: UNDEFINED
+	 tracking URL: http://Ubuntu-Master:8088/proxy/application_1583689295374_0015/
+	 user: hduser
+20/03/10 07:12:11 INFO yarn.Client: Application report for application_1583689295374_0015 (state: ACCEPTED)
+20/03/10 07:12:12 INFO yarn.Client: Application report for application_1583689295374_0015 (state: ACCEPTED)
+20/03/10 07:12:14 INFO yarn.Client: Application report for application_1583689295374_0015 (state: ACCEPTED)
+20/03/10 07:12:15 INFO yarn.Client: Application report for application_1583689295374_0015 (state: ACCEPTED)
+20/03/10 07:12:16 INFO yarn.Client: Application report for application_1583689295374_0015 (state: ACCEPTED)
+20/03/10 07:12:17 INFO yarn.Client: Application report for application_1583689295374_0015 (state: ACCEPTED)
+20/03/10 07:12:18 INFO yarn.Client: Application report for application_1583689295374_0015 (state: ACCEPTED)
+20/03/10 07:12:19 INFO yarn.Client: Application report for application_1583689295374_0015 (state: ACCEPTED)
+20/03/10 07:12:20 INFO yarn.Client: Application report for application_1583689295374_0015 (state: ACCEPTED)
+20/03/10 07:12:21 INFO yarn.Client: Application report for application_1583689295374_0015 (state: ACCEPTED)
+20/03/10 07:12:22 INFO yarn.Client: Application report for application_1583689295374_0015 (state: ACCEPTED)
+20/03/10 07:12:23 INFO yarn.Client: Application report for application_1583689295374_0015 (state: ACCEPTED)
+20/03/10 07:12:24 INFO yarn.Client: Application report for application_1583689295374_0015 (state: ACCEPTED)
+20/03/10 07:12:25 INFO yarn.Client: Application report for application_1583689295374_0015 (state: ACCEPTED)
+20/03/10 07:12:26 INFO yarn.Client: Application report for application_1583689295374_0015 (state: ACCEPTED)
+20/03/10 07:12:27 INFO yarn.Client: Application report for application_1583689295374_0015 (state: ACCEPTED)
+20/03/10 07:12:28 INFO yarn.Client: Application report for application_1583689295374_0015 (state: ACCEPTED)
+20/03/10 07:12:29 INFO yarn.Client: Application report for application_1583689295374_0015 (state: ACCEPTED)
+20/03/10 07:12:30 INFO yarn.Client: Application report for application_1583689295374_0015 (state: ACCEPTED)
+20/03/10 07:12:31 INFO yarn.Client: Application report for application_1583689295374_0015 (state: RUNNING)
+20/03/10 07:12:31 INFO yarn.Client: 
+	 client token: N/A
+	 diagnostics: N/A
+	 ApplicationMaster host: Ubuntu-Master
+	 ApplicationMaster RPC port: 41844
+	 queue: default
+	 start time: 1583838729947
+	 final status: UNDEFINED
+	 tracking URL: http://Ubuntu-Master:8088/proxy/application_1583689295374_0015/
+	 user: hduser
+20/03/10 07:12:32 INFO yarn.Client: Application report for application_1583689295374_0015 (state: RUNNING)
+20/03/10 07:12:33 INFO yarn.Client: Application report for application_1583689295374_0015 (state: RUNNING)
+20/03/10 07:12:34 INFO yarn.Client: Application report for application_1583689295374_0015 (state: RUNNING)
+20/03/10 07:12:35 INFO yarn.Client: Application report for application_1583689295374_0015 (state: RUNNING)
+20/03/10 07:12:36 INFO yarn.Client: Application report for application_1583689295374_0015 (state: RUNNING)
+20/03/10 07:12:37 INFO yarn.Client: Application report for application_1583689295374_0015 (state: RUNNING)
+20/03/10 07:12:38 INFO yarn.Client: Application report for application_1583689295374_0015 (state: RUNNING)
+20/03/10 07:12:39 INFO yarn.Client: Application report for application_1583689295374_0015 (state: RUNNING)
+20/03/10 07:12:40 INFO yarn.Client: Application report for application_1583689295374_0015 (state: RUNNING)
+20/03/10 07:12:41 INFO yarn.Client: Application report for application_1583689295374_0015 (state: RUNNING)
+20/03/10 07:12:42 INFO yarn.Client: Application report for application_1583689295374_0015 (state: RUNNING)
+20/03/10 07:12:43 INFO yarn.Client: Application report for application_1583689295374_0015 (state: RUNNING)
+20/03/10 07:12:44 INFO yarn.Client: Application report for application_1583689295374_0015 (state: RUNNING)
+20/03/10 07:12:45 INFO yarn.Client: Application report for application_1583689295374_0015 (state: RUNNING)
+20/03/10 07:12:46 INFO yarn.Client: Application report for application_1583689295374_0015 (state: RUNNING)
+20/03/10 07:12:47 INFO yarn.Client: Application report for application_1583689295374_0015 (state: RUNNING)
+20/03/10 07:12:48 INFO yarn.Client: Application report for application_1583689295374_0015 (state: RUNNING)
+20/03/10 07:12:49 INFO yarn.Client: Application report for application_1583689295374_0015 (state: RUNNING)
+20/03/10 07:12:50 INFO yarn.Client: Application report for application_1583689295374_0015 (state: RUNNING)
+20/03/10 07:12:51 INFO yarn.Client: Application report for application_1583689295374_0015 (state: RUNNING)
+20/03/10 07:12:52 INFO yarn.Client: Application report for application_1583689295374_0015 (state: RUNNING)
+20/03/10 07:12:53 INFO yarn.Client: Application report for application_1583689295374_0015 (state: RUNNING)
+20/03/10 07:12:54 INFO yarn.Client: Application report for application_1583689295374_0015 (state: RUNNING)
+20/03/10 07:12:55 INFO yarn.Client: Application report for application_1583689295374_0015 (state: RUNNING)
+20/03/10 07:12:56 INFO yarn.Client: Application report for application_1583689295374_0015 (state: RUNNING)
+20/03/10 07:12:57 INFO yarn.Client: Application report for application_1583689295374_0015 (state: RUNNING)
+20/03/10 07:12:58 INFO yarn.Client: Application report for application_1583689295374_0015 (state: RUNNING)
+20/03/10 07:12:59 INFO yarn.Client: Application report for application_1583689295374_0015 (state: RUNNING)
+20/03/10 07:13:00 INFO yarn.Client: Application report for application_1583689295374_0015 (state: RUNNING)
+20/03/10 07:13:01 INFO yarn.Client: Application report for application_1583689295374_0015 (state: RUNNING)
+20/03/10 07:13:02 INFO yarn.Client: Application report for application_1583689295374_0015 (state: RUNNING)
+20/03/10 07:13:03 INFO yarn.Client: Application report for application_1583689295374_0015 (state: RUNNING)
+20/03/10 07:13:04 INFO yarn.Client: Application report for application_1583689295374_0015 (state: RUNNING)
+20/03/10 07:13:05 INFO yarn.Client: Application report for application_1583689295374_0015 (state: RUNNING)
+20/03/10 07:13:06 INFO yarn.Client: Application report for application_1583689295374_0015 (state: RUNNING)
+20/03/10 07:13:07 INFO yarn.Client: Application report for application_1583689295374_0015 (state: RUNNING)
+20/03/10 07:13:08 INFO yarn.Client: Application report for application_1583689295374_0015 (state: RUNNING)
+20/03/10 07:13:09 INFO yarn.Client: Application report for application_1583689295374_0015 (state: RUNNING)
+20/03/10 07:13:10 INFO yarn.Client: Application report for application_1583689295374_0015 (state: RUNNING)
+20/03/10 07:13:11 INFO yarn.Client: Application report for application_1583689295374_0015 (state: RUNNING)
+20/03/10 07:13:12 INFO yarn.Client: Application report for application_1583689295374_0015 (state: RUNNING)
+20/03/10 07:13:13 INFO yarn.Client: Application report for application_1583689295374_0015 (state: RUNNING)
+20/03/10 07:13:14 INFO yarn.Client: Application report for application_1583689295374_0015 (state: RUNNING)
+20/03/10 07:13:15 INFO yarn.Client: Application report for application_1583689295374_0015 (state: RUNNING)
+20/03/10 07:13:16 INFO yarn.Client: Application report for application_1583689295374_0015 (state: RUNNING)
+20/03/10 07:13:17 INFO yarn.Client: Application report for application_1583689295374_0015 (state: RUNNING)
+20/03/10 07:13:18 INFO yarn.Client: Application report for application_1583689295374_0015 (state: RUNNING)
+20/03/10 07:13:19 INFO yarn.Client: Application report for application_1583689295374_0015 (state: RUNNING)
+20/03/10 07:13:20 INFO yarn.Client: Application report for application_1583689295374_0015 (state: RUNNING)
+20/03/10 07:13:21 INFO yarn.Client: Application report for application_1583689295374_0015 (state: RUNNING)
+20/03/10 07:13:22 INFO yarn.Client: Application report for application_1583689295374_0015 (state: RUNNING)
+20/03/10 07:13:23 INFO yarn.Client: Application report for application_1583689295374_0015 (state: RUNNING)
+20/03/10 07:13:24 INFO yarn.Client: Application report for application_1583689295374_0015 (state: RUNNING)
+20/03/10 07:13:25 INFO yarn.Client: Application report for application_1583689295374_0015 (state: RUNNING)
+20/03/10 07:13:26 INFO yarn.Client: Application report for application_1583689295374_0015 (state: RUNNING)
+20/03/10 07:13:27 INFO yarn.Client: Application report for application_1583689295374_0015 (state: RUNNING)
+20/03/10 07:13:28 INFO yarn.Client: Application report for application_1583689295374_0015 (state: RUNNING)
+20/03/10 07:13:29 INFO yarn.Client: Application report for application_1583689295374_0015 (state: RUNNING)
+20/03/10 07:13:30 INFO yarn.Client: Application report for application_1583689295374_0015 (state: RUNNING)
+20/03/10 07:13:31 INFO yarn.Client: Application report for application_1583689295374_0015 (state: RUNNING)
+20/03/10 07:13:32 INFO yarn.Client: Application report for application_1583689295374_0015 (state: RUNNING)
+20/03/10 07:13:33 INFO yarn.Client: Application report for application_1583689295374_0015 (state: RUNNING)
+20/03/10 07:13:34 INFO yarn.Client: Application report for application_1583689295374_0015 (state: RUNNING)
+20/03/10 07:13:35 INFO yarn.Client: Application report for application_1583689295374_0015 (state: RUNNING)
+20/03/10 07:13:36 INFO yarn.Client: Application report for application_1583689295374_0015 (state: RUNNING)
+20/03/10 07:13:37 INFO yarn.Client: Application report for application_1583689295374_0015 (state: RUNNING)
+20/03/10 07:13:38 INFO yarn.Client: Application report for application_1583689295374_0015 (state: RUNNING)
+20/03/10 07:13:39 INFO yarn.Client: Application report for application_1583689295374_0015 (state: RUNNING)
+20/03/10 07:13:40 INFO yarn.Client: Application report for application_1583689295374_0015 (state: RUNNING)
+20/03/10 07:13:41 INFO yarn.Client: Application report for application_1583689295374_0015 (state: RUNNING)
+20/03/10 07:13:42 INFO yarn.Client: Application report for application_1583689295374_0015 (state: RUNNING)
+20/03/10 07:13:43 INFO yarn.Client: Application report for application_1583689295374_0015 (state: RUNNING)
+20/03/10 07:13:44 INFO yarn.Client: Application report for application_1583689295374_0015 (state: RUNNING)
+20/03/10 07:13:45 INFO yarn.Client: Application report for application_1583689295374_0015 (state: RUNNING)
+20/03/10 07:13:46 INFO yarn.Client: Application report for application_1583689295374_0015 (state: RUNNING)
+20/03/10 07:13:47 INFO yarn.Client: Application report for application_1583689295374_0015 (state: RUNNING)
+20/03/10 07:13:48 INFO yarn.Client: Application report for application_1583689295374_0015 (state: RUNNING)
+20/03/10 07:13:49 INFO yarn.Client: Application report for application_1583689295374_0015 (state: RUNNING)
+20/03/10 07:13:50 INFO yarn.Client: Application report for application_1583689295374_0015 (state: RUNNING)
+20/03/10 07:13:51 INFO yarn.Client: Application report for application_1583689295374_0015 (state: RUNNING)
+20/03/10 07:13:52 INFO yarn.Client: Application report for application_1583689295374_0015 (state: RUNNING)
+20/03/10 07:13:53 INFO yarn.Client: Application report for application_1583689295374_0015 (state: RUNNING)
+20/03/10 07:13:54 INFO yarn.Client: Application report for application_1583689295374_0015 (state: FINISHED)
+20/03/10 07:13:54 INFO yarn.Client: 
+	 client token: N/A
+	 diagnostics: N/A
+	 ApplicationMaster host: Ubuntu-Master
+	 ApplicationMaster RPC port: 41844
+	 queue: default
+	 start time: 1583838729947
+	 final status: SUCCEEDED
+	 tracking URL: http://Ubuntu-Master:8088/proxy/application_1583689295374_0015/
+	 user: hduser
+20/03/10 07:13:54 INFO util.ShutdownHookManager: Shutdown hook called
+20/03/10 07:13:54 INFO util.ShutdownHookManager: Deleting directory /tmp/spark-f0c44ea5-7bd9-4c3c-ab62-fe32cac61e02
+20/03/10 07:13:54 INFO util.ShutdownHookManager: Deleting directory /tmp/spark-c3b7b620-a223-4382-9c2e-44b031deb66d
+20/03/10 07:14:03 INFO fs.TrashPolicyDefault: Namenode trash configuration: Deletion interval = 0 minutes, Emptier interval = 0 minutes.
+20/03/10 07:14:17 INFO fs.TrashPolicyDefault: Namenode trash configuration: Deletion interval = 0 minutes, Emptier interval = 0 minutes.
+20/03/10 07:14:17 INFO fs.TrashPolicyDefault: Namenode trash configuration: Deletion interval = 0 minutes, Emptier interval = 0 minutes.
+20/03/10 07:14:17 INFO fs.TrashPolicyDefault: Namenode trash configuration: Deletion interval = 0 minutes, Emptier interval = 0 minutes.
+20/03/10 07:14:17 INFO fs.TrashPolicyDefault: Namenode trash configuration: Deletion interval = 0 minutes, Emptier interval = 0 minutes.
+20/03/10 07:14:17 INFO fs.TrashPolicyDefault: Namenode trash configuration: Deletion interval = 0 minutes, Emptier interval = 0 minutes.
+20/03/10 07:14:17 INFO fs.TrashPolicyDefault: Namenode trash configuration: Deletion interval = 0 minutes, Emptier interval = 0 minutes.
+20/03/10 07:14:17 INFO fs.TrashPolicyDefault: Namenode trash configuration: Deletion interval = 0 minutes, Emptier interval = 0 minutes.
+20/03/10 07:14:17 INFO fs.TrashPolicyDefault: Namenode trash configuration: Deletion interval = 0 minutes, Emptier interval = 0 minutes.
+20/03/10 07:14:17 INFO fs.TrashPolicyDefault: Namenode trash configuration: Deletion interval = 0 minutes, Emptier interval = 0 minutes.
+20/03/10 07:14:17 INFO fs.TrashPolicyDefault: Namenode trash configuration: Deletion interval = 0 minutes, Emptier interval = 0 minutes.
+20/03/10 07:14:17 INFO fs.TrashPolicyDefault: Namenode trash configuration: Deletion interval = 0 minutes, Emptier interval = 0 minutes.
+20/03/10 07:14:17 INFO fs.TrashPolicyDefault: Namenode trash configuration: Deletion interval = 0 minutes, Emptier interval = 0 minutes.
+20/03/10 07:14:17 INFO fs.TrashPolicyDefault: Namenode trash configuration: Deletion interval = 0 minutes, Emptier interval = 0 minutes.
+20/03/10 07:14:17 INFO fs.TrashPolicyDefault: Namenode trash configuration: Deletion interval = 0 minutes, Emptier interval = 0 minutes.
+20/03/10 07:14:17 INFO fs.TrashPolicyDefault: Namenode trash configuration: Deletion interval = 0 minutes, Emptier interval = 0 minutes.
+20/03/10 07:14:17 INFO fs.TrashPolicyDefault: Namenode trash configuration: Deletion interval = 0 minutes, Emptier interval = 0 minutes.
+20/03/10 07:14:17 INFO fs.TrashPolicyDefault: Namenode trash configuration: Deletion interval = 0 minutes, Emptier interval = 0 minutes.
+20/03/10 07:14:17 INFO fs.TrashPolicyDefault: Namenode trash configuration: Deletion interval = 0 minutes, Emptier interval = 0 minutes.
+20/03/10 07:14:17 INFO fs.TrashPolicyDefault: Namenode trash configuration: Deletion interval = 0 minutes, Emptier interval = 0 minutes.
+20/03/10 07:14:17 INFO fs.TrashPolicyDefault: Namenode trash configuration: Deletion interval = 0 minutes, Emptier interval = 0 minutes.
+20/03/10 07:14:17 INFO fs.TrashPolicyDefault: Namenode trash configuration: Deletion interval = 0 minutes, Emptier interval = 0 minutes.
+20/03/10 07:14:17 INFO fs.TrashPolicyDefault: Namenode trash configuration: Deletion interval = 0 minutes, Emptier interval = 0 minutes.
+20/03/10 07:14:17 INFO fs.TrashPolicyDefault: Namenode trash configuration: Deletion interval = 0 minutes, Emptier interval = 0 minutes.
+20/03/10 07:14:17 INFO fs.TrashPolicyDefault: Namenode trash configuration: Deletion interval = 0 minutes, Emptier interval = 0 minutes.
+20/03/10 07:14:17 INFO fs.TrashPolicyDefault: Namenode trash configuration: Deletion interval = 0 minutes, Emptier interval = 0 minutes.
+20/03/10 07:14:17 INFO fs.TrashPolicyDefault: Namenode trash configuration: Deletion interval = 0 minutes, Emptier interval = 0 minutes.
+20/03/10 07:14:17 INFO fs.TrashPolicyDefault: Namenode trash configuration: Deletion interval = 0 minutes, Emptier interval = 0 minutes.
+20/03/10 07:14:17 INFO fs.TrashPolicyDefault: Namenode trash configuration: Deletion interval = 0 minutes, Emptier interval = 0 minutes.
+20/03/10 07:14:17 INFO fs.TrashPolicyDefault: Namenode trash configuration: Deletion interval = 0 minutes, Emptier interval = 0 minutes.
+20/03/10 07:14:17 INFO fs.TrashPolicyDefault: Namenode trash configuration: Deletion interval = 0 minutes, Emptier interval = 0 minutes.
+20/03/10 07:14:17 INFO fs.TrashPolicyDefault: Namenode trash configuration: Deletion interval = 0 minutes, Emptier interval = 0 minutes.
+20/03/10 07:14:17 INFO fs.TrashPolicyDefault: Namenode trash configuration: Deletion interval = 0 minutes, Emptier interval = 0 minutes.
+20/03/10 07:14:17 INFO fs.TrashPolicyDefault: Namenode trash configuration: Deletion interval = 0 minutes, Emptier interval = 0 minutes.
+20/03/10 07:14:17 INFO fs.TrashPolicyDefault: Namenode trash configuration: Deletion interval = 0 minutes, Emptier interval = 0 minutes.
+20/03/10 07:14:17 INFO fs.TrashPolicyDefault: Namenode trash configuration: Deletion interval = 0 minutes, Emptier interval = 0 minutes.
+20/03/10 07:14:17 INFO fs.TrashPolicyDefault: Namenode trash configuration: Deletion interval = 0 minutes, Emptier interval = 0 minutes.
+20/03/10 07:14:17 INFO fs.TrashPolicyDefault: Namenode trash configuration: Deletion interval = 0 minutes, Emptier interval = 0 minutes.
+20/03/10 07:14:17 INFO fs.TrashPolicyDefault: Namenode trash configuration: Deletion interval = 0 minutes, Emptier interval = 0 minutes.
+20/03/10 07:14:17 INFO fs.TrashPolicyDefault: Namenode trash configuration: Deletion interval = 0 minutes, Emptier interval = 0 minutes.
+20/03/10 07:14:17 INFO fs.TrashPolicyDefault: Namenode trash configuration: Deletion interval = 0 minutes, Emptier interval = 0 minutes.
+20/03/10 07:14:17 INFO fs.TrashPolicyDefault: Namenode trash configuration: Deletion interval = 0 minutes, Emptier interval = 0 minutes.
+20/03/10 07:14:17 INFO fs.TrashPolicyDefault: Namenode trash configuration: Deletion interval = 0 minutes, Emptier interval = 0 minutes.
+20/03/10 07:14:17 INFO fs.TrashPolicyDefault: Namenode trash configuration: Deletion interval = 0 minutes, Emptier interval = 0 minutes.
+20/03/10 07:14:17 INFO fs.TrashPolicyDefault: Namenode trash configuration: Deletion interval = 0 minutes, Emptier interval = 0 minutes.
+20/03/10 07:14:17 INFO fs.TrashPolicyDefault: Namenode trash configuration: Deletion interval = 0 minutes, Emptier interval = 0 minutes.
+20/03/10 07:14:17 INFO fs.TrashPolicyDefault: Namenode trash configuration: Deletion interval = 0 minutes, Emptier interval = 0 minutes.
+20/03/10 07:14:17 INFO fs.TrashPolicyDefault: Namenode trash configuration: Deletion interval = 0 minutes, Emptier interval = 0 minutes.
+20/03/10 07:14:17 INFO fs.TrashPolicyDefault: Namenode trash configuration: Deletion interval = 0 minutes, Emptier interval = 0 minutes.
+20/03/10 07:14:17 INFO fs.TrashPolicyDefault: Namenode trash configuration: Deletion interval = 0 minutes, Emptier interval = 0 minutes.
+20/03/10 07:14:17 INFO fs.TrashPolicyDefault: Namenode trash configuration: Deletion interval = 0 minutes, Emptier interval = 0 minutes.
+20/03/10 07:14:17 INFO fs.TrashPolicyDefault: Namenode trash configuration: Deletion interval = 0 minutes, Emptier interval = 0 minutes.
+20/03/10 07:14:17 INFO fs.TrashPolicyDefault: Namenode trash configuration: Deletion interval = 0 minutes, Emptier interval = 0 minutes.
+20/03/10 07:14:17 INFO fs.TrashPolicyDefault: Namenode trash configuration: Deletion interval = 0 minutes, Emptier interval = 0 minutes.
+20/03/10 07:14:17 INFO fs.TrashPolicyDefault: Namenode trash configuration: Deletion interval = 0 minutes, Emptier interval = 0 minutes.
+20/03/10 07:14:17 INFO fs.TrashPolicyDefault: Namenode trash configuration: Deletion interval = 0 minutes, Emptier interval = 0 minutes.
+20/03/10 07:14:17 INFO fs.TrashPolicyDefault: Namenode trash configuration: Deletion interval = 0 minutes, Emptier interval = 0 minutes.
+20/03/10 07:14:17 INFO fs.TrashPolicyDefault: Namenode trash configuration: Deletion interval = 0 minutes, Emptier interval = 0 minutes.
+20/03/10 07:14:17 INFO fs.TrashPolicyDefault: Namenode trash configuration: Deletion interval = 0 minutes, Emptier interval = 0 minutes.
+20/03/10 07:14:17 INFO fs.TrashPolicyDefault: Namenode trash configuration: Deletion interval = 0 minutes, Emptier interval = 0 minutes.
+20/03/10 07:14:17 INFO fs.TrashPolicyDefault: Namenode trash configuration: Deletion interval = 0 minutes, Emptier interval = 0 minutes.
+20/03/10 07:14:17 INFO fs.TrashPolicyDefault: Namenode trash configuration: Deletion interval = 0 minutes, Emptier interval = 0 minutes.
+20/03/10 07:14:17 INFO fs.TrashPolicyDefault: Namenode trash configuration: Deletion interval = 0 minutes, Emptier interval = 0 minutes.
+20/03/10 07:14:18 INFO fs.TrashPolicyDefault: Namenode trash configuration: Deletion interval = 0 minutes, Emptier interval = 0 minutes.
+20/03/10 07:14:18 INFO fs.TrashPolicyDefault: Namenode trash configuration: Deletion interval = 0 minutes, Emptier interval = 0 minutes.
+20/03/10 07:14:18 INFO fs.TrashPolicyDefault: Namenode trash configuration: Deletion interval = 0 minutes, Emptier interval = 0 minutes.
+20/03/10 07:14:18 INFO fs.TrashPolicyDefault: Namenode trash configuration: Deletion interval = 0 minutes, Emptier interval = 0 minutes.
+20/03/10 07:14:18 INFO fs.TrashPolicyDefault: Namenode trash configuration: Deletion interval = 0 minutes, Emptier interval = 0 minutes.
+20/03/10 07:14:18 INFO fs.TrashPolicyDefault: Namenode trash configuration: Deletion interval = 0 minutes, Emptier interval = 0 minutes.
+20/03/10 07:14:18 INFO fs.TrashPolicyDefault: Namenode trash configuration: Deletion interval = 0 minutes, Emptier interval = 0 minutes.
+20/03/10 07:14:18 INFO fs.TrashPolicyDefault: Namenode trash configuration: Deletion interval = 0 minutes, Emptier interval = 0 minutes.
+20/03/10 07:14:18 INFO fs.TrashPolicyDefault: Namenode trash configuration: Deletion interval = 0 minutes, Emptier interval = 0 minutes.
+20/03/10 07:14:18 INFO fs.TrashPolicyDefault: Namenode trash configuration: Deletion interval = 0 minutes, Emptier interval = 0 minutes.
+20/03/10 07:14:18 INFO fs.TrashPolicyDefault: Namenode trash configuration: Deletion interval = 0 minutes, Emptier interval = 0 minutes.
+20/03/10 07:14:18 INFO fs.TrashPolicyDefault: Namenode trash configuration: Deletion interval = 0 minutes, Emptier interval = 0 minutes.
+20/03/10 07:14:18 INFO fs.TrashPolicyDefault: Namenode trash configuration: Deletion interval = 0 minutes, Emptier interval = 0 minutes.
+20/03/10 07:14:18 INFO fs.TrashPolicyDefault: Namenode trash configuration: Deletion interval = 0 minutes, Emptier interval = 0 minutes.
+20/03/10 07:14:18 INFO fs.TrashPolicyDefault: Namenode trash configuration: Deletion interval = 0 minutes, Emptier interval = 0 minutes.
+20/03/10 07:14:18 INFO fs.TrashPolicyDefault: Namenode trash configuration: Deletion interval = 0 minutes, Emptier interval = 0 minutes.
+20/03/10 07:14:18 INFO fs.TrashPolicyDefault: Namenode trash configuration: Deletion interval = 0 minutes, Emptier interval = 0 minutes.
+20/03/10 07:14:18 INFO fs.TrashPolicyDefault: Namenode trash configuration: Deletion interval = 0 minutes, Emptier interval = 0 minutes.
+20/03/10 07:14:18 INFO fs.TrashPolicyDefault: Namenode trash configuration: Deletion interval = 0 minutes, Emptier interval = 0 minutes.
+20/03/10 07:14:18 INFO fs.TrashPolicyDefault: Namenode trash configuration: Deletion interval = 0 minutes, Emptier interval = 0 minutes.
+20/03/10 07:14:18 INFO fs.TrashPolicyDefault: Namenode trash configuration: Deletion interval = 0 minutes, Emptier interval = 0 minutes.
+20/03/10 07:14:18 INFO fs.TrashPolicyDefault: Namenode trash configuration: Deletion interval = 0 minutes, Emptier interval = 0 minutes.
+20/03/10 07:14:18 INFO fs.TrashPolicyDefault: Namenode trash configuration: Deletion interval = 0 minutes, Emptier interval = 0 minutes.
+20/03/10 07:14:18 INFO fs.TrashPolicyDefault: Namenode trash configuration: Deletion interval = 0 minutes, Emptier interval = 0 minutes.
+20/03/10 07:14:18 INFO fs.TrashPolicyDefault: Namenode trash configuration: Deletion interval = 0 minutes, Emptier interval = 0 minutes.
+20/03/10 07:14:18 INFO fs.TrashPolicyDefault: Namenode trash configuration: Deletion interval = 0 minutes, Emptier interval = 0 minutes.
+20/03/10 07:14:18 INFO fs.TrashPolicyDefault: Namenode trash configuration: Deletion interval = 0 minutes, Emptier interval = 0 minutes.
+20/03/10 07:14:18 INFO fs.TrashPolicyDefault: Namenode trash configuration: Deletion interval = 0 minutes, Emptier interval = 0 minutes.
+20/03/10 07:14:18 INFO fs.TrashPolicyDefault: Namenode trash configuration: Deletion interval = 0 minutes, Emptier interval = 0 minutes.
+20/03/10 07:14:18 INFO fs.TrashPolicyDefault: Namenode trash configuration: Deletion interval = 0 minutes, Emptier interval = 0 minutes.
+20/03/10 07:14:18 INFO fs.TrashPolicyDefault: Namenode trash configuration: Deletion interval = 0 minutes, Emptier interval = 0 minutes.
+20/03/10 07:14:18 INFO fs.TrashPolicyDefault: Namenode trash configuration: Deletion interval = 0 minutes, Emptier interval = 0 minutes.
+hduser@Ubuntu-Master:~/Programs/Spark_DF_Operations$ date
+Tue Mar 10 07:14:23 EDT 2020
+
